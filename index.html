@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Playing with colors</title>
+
+        <link rel="stylesheet" href="buttons.css" type="text/css" media="all">
+        <script src="../lib/dom_helper.js" defer="defer"></script>
+        <script src="input_range.js" defer="defer"></script>
+        <script src="buttons.js" defer="defer"></script>
+    </head>
+
+    <body>
+            <div class="buttons">
+                    <button class="red">Red</button>
+                    <button class="green">Green</button>
+                    <button class="blue">Blue</button>
+                </div>
+        <div class="rgbcontrol">
+            <form action="#">
+                <label for="red">Red</label><br>
+                <input type="range" name="rgb" id="red" min="0" max="255">
+            </form>
+            <form action="#">
+                <label for="green">Green</label><br>
+                <input type="range" name="rgb" id="green" min="0" max="255">
+            </form>
+            <form action="#">
+                <label for="blue">Blue</label><br>
+                <input type="range" name="rgb" id="blue" min="0" max="255">
+            </form>
+        </div>
+    </body>
+</html>
