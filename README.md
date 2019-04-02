@@ -1,4 +1,4 @@
-  <h1><a href="https://ewwan.github.io/changing_colors/">Dinamic Background Color Change</a></h1>
+  <h1><a href="https://ewwan.github.io/changing_colors/">Dynamic Background Color Change</a></h1>
     <p>Welcome!</p>
     <p>This short project is aimed at providing a user with an easy path to adjusting the background color.</p>
     <p>The available options are:</p>
